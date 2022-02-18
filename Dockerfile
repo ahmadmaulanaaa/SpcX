@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/AstrakoBot
-RUN git clone -b shiken https://github.com/Astrako/AstrakoBot /root/AstrakoBot
-WORKDIR /root/AstrakoBot
+# Copy Python Requirements to /root/SpcX
+RUN git clone -b shiken https://github.com/ahmadmaulanaaa/SpcX /root/SpcX
+WORKDIR /root/SpcX
 
 #Copy config file to /root/AstrakoBot/AstrakoBot
-COPY ./AstrakoBot/sample_config.py ./AstrakoBot/config.py* /root/AstrakoBot/AstrakoBot/
+COPY ./SpcX/sample_config.py ./SpcX/config.py* /root/ahmadmaulanaaa/SpcX/
 
 ENV PATH="/home/bot/bin:$PATH"
 
