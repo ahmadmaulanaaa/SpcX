@@ -1,14 +1,14 @@
 {
-      "name": "AstrakoBot",
+      "name": "SpcX",
       "description": "A modular Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "AstrakoBot"
+         "SpcX"
       ],   
-   "repository": "https://github.com/AngkasaBoy/Spaceebot",
+   "repository": "https://github.com/ahmadmaulanaaa/SpcX",
    "addons": [
       {
          "options": {
