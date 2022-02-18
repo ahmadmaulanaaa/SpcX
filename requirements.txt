@@ -3,8 +3,8 @@ emoji
 lxml
 beautifulsoup4
 requests
-sqlalchemy
-python-telegram-bot==12.8
+SQLAlchemy==1.4.31
+python-telegram-bot==13.11.0
 psycopg2-binary
 feedparser
 pynewtonmath
@@ -13,8 +13,8 @@ zalgo-text
 geopy
 nltk
 psutil
-aiohttp>=2.2.5
-Pillow>=4.2.0
+aiohttp
+Pillow
 CurrencyConverter
 #googletrans
 google_trans_new
@@ -41,7 +41,7 @@ pybase64
 pySmartDL
 validators
 youtube_dl
-youtube-search-python
+youtube_search_python==1.4.9
 gtts
 pretty_errors
 tswift
